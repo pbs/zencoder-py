@@ -11,4 +11,5 @@ setup(
     license="MIT License",
     install_requires=['httplib2'],
     packages=find_packages('zencoder'),
+    include_package_data=True,
 )
